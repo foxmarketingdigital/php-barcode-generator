@@ -15,7 +15,7 @@ class BarcodeGeneratorSVG extends BarcodeGenerator
      * @return string SVG code.
      * @public
      */
-    public function getBarcode($barcode, $type, int $widthFactor = 2, int $height = 30, string $foregroundColor = 'black')
+    public function getBarcode($barcode, $type, float $widthFactor = 2, int $height = 30, string $foregroundColor = 'black')
     {
         $barcodeData = $this->getBarcodeData($barcode, $type);
 
